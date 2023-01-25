@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch the data from server : bot 
 
-  const response = await fetch('https://codexai-vmgo.onrender.com', {
+  const response = await fetch('https://codex-dev.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
